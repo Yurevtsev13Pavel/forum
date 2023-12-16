@@ -13,4 +13,3 @@ class ProfileCreateView(CreateView):
     form_class = ProfileCreationForm
     template_name = 'forum_profile/create_profile.html'
     success_url = reverse_lazy('profile:create')
-    
